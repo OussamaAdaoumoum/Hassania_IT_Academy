@@ -3,8 +3,6 @@ import { Link, Route, Routes } from "react-router-dom";
 function SignUp() {
   return (
 
-
-
   <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
   <section className="flex w-[30rem] flex-col space-y-10">
     <div className="text-center text-4xl font-medium">Sign Up</div>
@@ -60,7 +58,6 @@ function SignUp() {
     <p className="text-center text-lg">
     already have account?  
       <Link to="/SignIn" className="font-medium text-indigo-500 underline-offset-4 hover:underline">SIGN IN</Link>
-
     </p>
   </section>
 </div>
