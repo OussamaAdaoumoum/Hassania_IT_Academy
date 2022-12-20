@@ -5,7 +5,7 @@ function SignIn() {
 
 
 
-  <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
+  <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white bg-black">
   <section className="flex w-[30rem] flex-col space-y-10">
     <div className="text-center text-4xl font-medium">Log In</div>
 

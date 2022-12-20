@@ -1,7 +1,8 @@
 import classNames from 'classnames';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { BsList, BsX } from 'react-icons/bs';
 import { useMediaQuery } from 'react-responsive';
+import { Link, Route, Routes } from "react-router-dom";
 
 // import logo from '../../images/logo.svg';  
 import logo from '../../images/logo_white_background.png';
@@ -9,12 +10,21 @@ import logo from '../../images/logo_white_background.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 import SecondaryButton from '../buttons/SecondaryButton';
 import Menus from './Menus';
+import DropDownNav from '../DropDownNav/DropDownNav/DropDownNav';
+
+import { UserContext } from '../../UserContext'; 
 
 export default function Navbar() {
+  const { user } = useContext(UserContext);
+
+  console.log('waaaaaaaaaaaaaaaaaa luser', user);
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [backgroundwhite, setBackgroundWhite] = useState(false);
 
   const isMobile = useMediaQuery({ maxWidth: '768px' });
+
+
 
   const handleWindowScroll = (e) => {
     const height = window.scrollY;
@@ -59,14 +69,22 @@ export default function Navbar() {
             <Menus />
           </div>
         </div>
+
+        {user.auth ? (<DropDownNav/>):(
+
         <div className="hidden gap-4 md:flex">
-          <SecondaryButton>
-            Sign In
-          </SecondaryButton>
+          <Link to="/SignIn">
+            <SecondaryButton>
+              Sign In
+            </SecondaryButton>
+          </Link>
+          <Link to="/SignUp">
           <PrimaryButton>
             Sign Up
           </PrimaryButton>
+          </Link>
         </div>
+        )}
         <div className="md:hidden text-2xl">
           <button className="z-50 p-4 block transition-all" onClick={() => setDropdownOpen(!dropdownOpen)}>
             {dropdownOpen ?

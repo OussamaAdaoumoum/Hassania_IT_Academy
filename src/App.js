@@ -1,17 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
-import SignUp from './routes/SignUp/SignUp';
-import FormationCard from './components/FormationCard/FormationCard';
 import { Routes, Route } from "react-router-dom";
 import Home from './routes/Home/Home';
+import FormationCard from './components/FormationCard/FormationCard';
+import SignUp from './routes/SignUp/SignUp';
+import SignIn from './routes/SignIn/SignIn';
 
 
 function App() {
   return (
-    <div className="App">
-    {/* <FormationCard /> */}
-    <Home />
-    </div>
+    // <Routes>
+    //   <Route path="/" element={<Home />} />
+    //   <Route path="/SignUp" element={<SignUp />} />
+    //   <Route path="/SignIn" element={<SignIn />} />
+
+    // {/* <Home /> */}
+    // </Routes>
+    <FormationCard />
   );
 }
 
