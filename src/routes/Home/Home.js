@@ -11,7 +11,7 @@ import BackToTopSection from '../../components/sections/BackToTopSection';
 
 function Home() {
   return (
-    <Layout>
+    <>
       <HeroSection />
       {/* <CryptocurrencySection /> */}
       {/* <BuyAndTradeSection /> */}
@@ -22,7 +22,7 @@ function Home() {
       <StepSection />
       <FaqSection />
       <BackToTopSection />
-    </Layout>
+    </>
   );
 }
 

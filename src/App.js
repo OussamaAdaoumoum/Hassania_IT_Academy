@@ -8,14 +8,14 @@ import SignIn from './routes/SignIn/SignIn';
 
 function App() {
   return (
-    // <Routes>
-    //   <Route path="/" element={<Home />} />
-    //   <Route path="/SignUp" element={<SignUp />} />
-    //   <Route path="/SignIn" element={<SignIn />} />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/SignUp" element={<SignUp />} />
+      <Route path="/SignIn" element={<SignIn />} />
 
-    // {/* <Home /> */}
-    // </Routes>
-    <FormationCard />
+    {/* <Home /> */}
+    </Routes>
+    // <FormationCard />
   );
 }
 

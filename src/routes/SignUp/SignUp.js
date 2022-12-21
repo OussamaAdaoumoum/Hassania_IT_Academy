@@ -41,56 +41,55 @@ function SignUp() {
 
   <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white bg-black">
   <form  className="flex w-[30rem] flex-col space-y-10" onSubmit={handleSubmit}>
-    <div className="text-center text-4xl font-medium">Sign Up</div>
+    <div className="text-center text-4xl font-medium text-[#00283f]">Sign Up</div>
 
     <div
-      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
+      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500 border-[#00283f]"
     >
       <input
         type="text"
         placeholder="Name"
         name="name"
-        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
+        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none text-[#00283f]"
         // value={inputs.name}
-        onChange={handleChange
-      }
+        onChange={handleChange}
       />
     </div>
 
     <div
-      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
+      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500 border-[#00283f]"
     >
       <input
         type="text"
         placeholder="Email"
         name="email"
-        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
+        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none text-[#00283f]"
         // value={inputs.email}
         onChange={handleChange}
       />
     </div>
 
     <div
-      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
+      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500 border-[#00283f]"
     >
       <input
         type="number"
         placeholder="Phone Number"
         name="mobile"
-        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
+        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none text-[#00283f]"
         // value={inputs.mobile}
         onChange={handleChange}
       />
     </div>
 
     <div
-      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500"
+      className="w-full transform border-b-2 bg-transparent text-lg duration-300 focus-within:border-indigo-500 border-[#00283f]"
     >
       <input
         type="password"
         placeholder="password"
         name="password"
-        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none"
+        className="w-full border-none bg-transparent outline-none placeholder:italic focus:outline-none text-[#00283f]"
         // value={inputs.password}
         onChange={handleChange}
       />
@@ -106,7 +105,7 @@ function SignUp() {
 
     {/* <Link to="/SignIn" className="transform text-center font-semibold text-gray-500 duration-300 hover:text-gray-300">FORGOT PASSWORD?</Link> */}
 
-    <p className="text-center text-lg">
+    <p className="text-center text-lg text-[#00283f]">
     already have account?  
       <Link  to='/SignIn' className="font-medium text-indigo-500 underline-offset-4 hover:underline">SIGN IN</Link>
     </p>

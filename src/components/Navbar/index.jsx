@@ -64,7 +64,9 @@ export default function Navbar() {
     })}>
       <div className="px-4 container mx-auto top-0 flex justify-between items-center">
         <div className="flex items-center">
-          <img src={logo} className="mr-6 w-20" alt="Neva" />
+          <Link to='/'>
+            <img src={logo} className="mr-6 w-20" alt="Neva" />
+          </Link>
           <div className='hidden mx-4 gap-8 xl:flex'>
             <Menus />
           </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 
 import logo from '../../images/logo.svg';
+import logo_white_background from '../../images/logo_white_background.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 
 export default function Footer() {
@@ -10,8 +11,8 @@ export default function Footer() {
       <div className="container px-2 border-y border-lightgray py-6">
         <div className="grid lg:grid-cols-3 xl:grid-cols-4">
           <div className="p-6 xl:flex md:justify-between xl:border-r border-lightgray">
-            <div className='mb-6'>
-              <img src={logo} alt="" />
+            <div className='mb-6 w-24'>
+              <img src={logo_white_background} alt="" />
             </div>
             <ul>
               <li className='mb-4'>
@@ -86,10 +87,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center py-6">
-        <p className="text-gray">© Copyright 2022 NEFA LLC. All rights reserved</p>
-        <small className='text-gray'>
-          Design by Irvan Moses, checkout the repository <a href="https://github.com/dicka88/nefa" className="text-primary" target="_blank" rel='noreferrer'>here</a>
-        </small>
+        <p className="text-gray">© Copyright 2022 Hassania IT Club. All rights reserved</p>
+
       </div>
     </footer>
   );
