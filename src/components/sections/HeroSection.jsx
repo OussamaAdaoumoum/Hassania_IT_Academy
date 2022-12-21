@@ -9,6 +9,7 @@ import OrangeCircleParticle from '../particles/OrangeCircleParticle';
 import StarParticle from '../particles/StarParticle';
 import PurpleCircleParticle from '../particles/PurpleCircleParticle';
 import DropdownButton from '../buttons/DropdownButton';
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
@@ -22,21 +23,27 @@ export default function HeroSection() {
             <StarParticle className="absolute top-0 right-0" />
             <PurpleCircleParticle className="absolute bottom-0 -left-12" />
 
-            <p className='text-primary'>SIGN UP TODAY</p>
+           
             <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold leading-normal'>
-              The World’s <br />
-              <span className='text-blue-gradient'>Fastest Growing</span> <br />
-              Formation Web App
+              <br />
+              <span className='text-blue-gradient'>Build the skills that lead to success</span> 
+              
             </h1>
             <div className="mt-4 mb-8">
-              <p className="text-gray">Buy and sell 200+ cryptocurrencies with 20+ flat currencies using</p>
-              <p className="text-gray">bank transfers or your credit/debit card.</p>
+              <p className="text-gray font-sans text-xl"> <br />
+           Certificates on Hassania IT academy help you get job-ready for an in-demand career field in less than a year. Earn a career credential, apply your knowledge to hands-on projects that showcase your skills for employers, and get access to job search resources.
+
+              </p>
+              
             </div>
+            <Link to="/Catalogue">
             <div className="col-span-2 lg:flex gap-4 lg:mb-12">
+              {/*  */}
               <PrimaryButton className="w-full lg:w-auto mb-2 lg:mb-0">
                 Get Started
               </PrimaryButton>
-              <DropdownButton name="Download App" className="w-full lg:w-auto">
+              {/* </Link> */}
+             {/*  <DropdownButton name="Download App" className="w-full lg:w-auto">
                 <a href="/download/windows" target="_blank" className="w-f ull hover:bg-primary px-6 pt-4 pb-2 block hover:text-white">
                   <FaWindows className='inline mr-2' /> Windows
                 </a>
@@ -50,13 +57,15 @@ export default function HeroSection() {
                   <FaAppStore className='inline mr-2' /> IOS
                 </a>
               </DropdownButton>
+              */}
             </div>
+            </Link>
           </div>
         </div>
         <div className="relative hidden md:block">
           <BlueCircleParticle className="absolute top-0 left-11 duration-[5s]" />
           <OrangeCircleParticle className="absolute bottom-1/4 right-0" />
-            <img src={globoCrypto} alt="Globe" className=' h-4/5 left-11'/>
+            <img src={globoCrypto} alt="Globe" className=' h-4/5 left-19'/>
         </div>
       </div>
     </section >

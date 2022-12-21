@@ -14,7 +14,7 @@ export default function Footer() {
             <div className='mb-6 w-24'>
               <img src={logo_white_background} alt="" />
             </div>
-            <ul>
+           {/* <ul>
               <li className='mb-4'>
                 <a href="/" className='text-gray hover:text-primary'>Buy Crypto</a>
               </li>
@@ -30,21 +30,22 @@ export default function Footer() {
               <li className='mb-4'>
                 <a href="/" className='text-gray hover:text-primary'>NFT</a>
               </li>
-            </ul>
+            </ul>*/} 
           </div>
           <div className='p-6 xl:flex md:justify-center xl:border-r border-lightgray'>
             <ul>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Products</a>
+                <h3>About Hassania IT academy</h3>
+                
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>About Us</a>
+                <a href="/" className='text-gray hover:text-primary'> Our Story</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Careers</a>
+                <a href="/" className='text-gray hover:text-primary'>Training experience</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Blog</a>
+                <a href="/" className='text-gray hover:text-primary'>Empower Us</a>
               </li>
               <li className='mb-4'>
                 <a href="/" className='text-gray hover:text-primary'>Security</a>
@@ -53,26 +54,27 @@ export default function Footer() {
           </div>
           <div className='p-6 xl:flex md:justify-center xl:border-r border-lightgray'>
             <ul>
+
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Help Center</a>
+              Community
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Contact Us</a>
+                <a href="/" className='text-gray hover:text-primary'>Learners</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>System Status</a>
+                <a href="/" className='text-gray hover:text-primary'>Partners</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Area Avaibility</a>
+                <a href="/" className='text-gray hover:text-primary'>Developers</a>
               </li>
               <li className='mb-4'>
-                <a href="/" className='text-gray hover:text-primary'>Privacy Policy</a>
+                <a href="/" className='text-gray hover:text-primary'>Teaching Center</a>
               </li>
             </ul>
           </div>
           <div className="p-6 w-full lg:col-span-3 xl:col-auto">
             <span className='text-gray'>Newsletter</span>
-            <p className='text-gray font-thin'>Never miss anything crypto when you're on the go</p>
+            <p className='text-gray font-thin'>Never miss anything when you're on the go</p>
             <div className="flex gap-4 my-4">
               <div>
                 <input type="email" className="border border-lightgray rounded-xl p-4 outline-none focus:border-primary w-full" placeholder="Enter your email" />

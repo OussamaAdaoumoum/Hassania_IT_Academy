@@ -13,20 +13,21 @@ export default function PartnerSection() {
         <div className="container mx-auto">
           <div className="text-center mb-4">
             <h2 className="text-3xl font-bold mb-4">Trusted Partners Worldwide</h2>
-            <p className='text-gray'>We're partners with countless major organisations around the globe</p>
+            <p className='text-gray font-sans text-xl'>We're partners with countless major organisations around the globe</p>
           </div>
           <div className="mx-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               <Fade up >
                 <img src={oracle} className="basis-1/2 mt-8" alt="" />
               </Fade>
               <Fade up delay={200}>
                 <img src={societeGenerale} className="basis-1/2 mt-7" alt="" />
               </Fade>
+              {/*
               <Fade up delay={400}>
                 <img src={partner3} className="basis-1/2" alt="" />
-              </Fade>
-              <Fade up delay={600}>
+              </Fade>*/}
+              <Fade up delay={400}>
                 <img src={partner4} className="basis-1/2" alt="" />
               </Fade>
             </div>

@@ -45,15 +45,16 @@ export default function FaqSection() {
         </div>
         <div className="flex justify-center">
           <div className="">
-            <span className="text-primary">SUPPORT</span>
+         
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-              Frequently asked questions
+            The ranking of the Hassania IT academy ecosystem
             </h2>
-            <div className="my-6">
-              <FaqItem open={true} title="Why should I choose NEFA?">
-                We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
-              </FaqItem>
-              <FaqItem open={false} title="How secure is NEFA?">
+            <div className="text-gray font-sans text-xl">
+              <FaqItem open={true} title="Why should I choose Hassania IT academy">
+              Our mission is to guide you in your lifelong learning research. That's why everyone can express themselves! Our platform benefits from an active community of learner which reviews, collects badges and shares his experience by rating the Hassania IT academy . Then you can make your own opinion to take the course or not !</FaqItem>
+
+              {/* 
+                    <FaqItem open={false} title="How secure is NEFA?">
                 We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
               </FaqItem>
               <FaqItem open={false} title="Do I have to buy a whole Bitcoin?">
@@ -62,6 +63,8 @@ export default function FaqSection() {
               <FaqItem open={false} title="How do I actually buy Bitcoin?">
                 We're industry pioneers, having been in the cryptocurrency industry since 2016. We've facilitated more than 21 billion USD worth of transactions on our exchange for customers in over 40 countries. Today, we're trusted by over 8 million customers around the world and have received praise for our easy-to-use app, secure wallet, and range of features.
               </FaqItem>
+
+              */}
             </div>
           </div>
         </div>

@@ -15,7 +15,9 @@ function Home() {
       <HeroSection />
       {/* <CryptocurrencySection /> */}
       {/* <BuyAndTradeSection /> */}
+      
       <PartnerSection />
+
       <CreditCardSection />
       <TradingToolsSection />
       <SecuritySection />

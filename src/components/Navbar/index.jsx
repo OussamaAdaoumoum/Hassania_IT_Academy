@@ -59,7 +59,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={classNames('fixed w-full transition-all mb-2 duration-700 z-10 py-8 ', {
+    // <div className='absolute mb-7'>
+    <nav className={classNames('fixed top-0 w-full transition-all mb-2 duration-700 z-10 py-8 ', {
       'bg-white shadow-lg !py-3': backgroundwhite
     })}>
       <div className="px-4 container mx-auto top-0 flex justify-between items-center">
@@ -121,5 +122,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    // </div>
   );
 }

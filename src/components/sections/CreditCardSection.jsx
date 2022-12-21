@@ -17,28 +17,12 @@ export default function CreditCardSection() {
         <div className="flex justify-center">
           <div className="max-w-md">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-              Introducing the <span className="text-blue-gradient">NEFA</span> <br /> Credit Card
+            Hassnia IT Academy
             </h2>
-            <p className='text-gray'>Subject to cardholder and rewards terms which will be available <br /> at application.</p>
+            <p className="text-gray font-sans text-xl">
+           Innovative training
+Become who you want to be with Hassnia IT Academy. Choose your career. Follow a training consisting of professional projects and individual sessions with a dedicated mentor each week. Get a state-recognized degree. Enrich your CV with the work-study programs offered by Hassnia It academy and earn a salary while following your training.</p>
 
-            <ul className="my-6">
-              <li className='mb-2'>
-                <BsCheckCircleFill className='text-primary inline mr-2' />
-                Up to 3% back on purchases
-              </li>
-              <li className='mb-2'>
-                <BsCheckCircleFill className='text-primary inline mr-2' />
-                Earn rewards in bitcoin or any crypto on NEFA
-              </li>
-              <li className='mb-2'>
-                <BsCheckCircleFill className='text-primary inline mr-2' />
-                No annual fee
-              </li>
-            </ul>
-
-            <SecondaryButton>
-              Join the waitlist
-            </SecondaryButton>
           </div>
         </div>
       </div>

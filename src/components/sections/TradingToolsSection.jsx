@@ -13,9 +13,13 @@ export default function TradingToolsSection() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className='lg:row-start-1 max-w-lg'>
               <h2 className="font-bold text-4xl mb-6 leading-normal">
-                Advanced Trading <span className="text-blue-gradient">Tools</span>
+              Certificats <span className="text-blue-gradient"></span>
               </h2>
-              <div className="mb-6">
+
+              <p className="text-gray font-sans text-xl">Our specialist certificate programs are designed to give you job-role training and formal workplace skills. In fewer than three hours of active learning, you can complete any of our curated certificate courses to cover a gap in your existing knowledge or gain clarity on a new subject area. So, in a single morning or one afternoon, you can super-charge your skills .
+
+</p>
+              {/*<div className="mb-6">
                 <h3 className='font-bold text-xl mb-4'>Professional Access, Non-stop Availability</h3>
                 <p className='text-gray'>We provide premium access to crypto trading for both individuals and institutions through high liquidity, reliable order execution and constant uptime.</p>
               </div>
@@ -30,11 +34,13 @@ export default function TradingToolsSection() {
               <SecondaryButton>
                 Get Started
               </SecondaryButton>
+              
               <a href="#">
                 <button className='py-4 px-10 text-primary underline'>
                   Learn more
                 </button>
               </a>
+              */}
             </div>
             <div className="row-start-1 mb-8">
               <Fade up>

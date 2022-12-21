@@ -17,17 +17,20 @@ export default function SecuritySection() {
         <div className="flex justify-center">
           <div className="max-w-xl">
             <h2 className="font-bold text-4xl mb-6 leading-normal">
-            See what we’re about
+           Hassania IT academy: certifying online training
             </h2>
-            <ul className="my-6">
+            <p className="text-gray font-sans text-xl">
+                The Hassania IT academy, Hassania information technologie academy , is a new type of online training.  text content, discussion forums and validates its achievements with exercises.
+
+Open by session or all year.
+                </p>
+          {/*  <ul className="my-6">
               <li className='mb-6'>
                 <span>
                   <BsCheckCircleFill className='text-primary inline mr-2' />
                   Safety, security and compliance
                 </span>
-                <p className="text-gray">
-                  NEFA is a licensed New York trust company that undergoes regular bank exams and is subject to the cybersecurity audits conducted by the New York Department of Financial Services. Learn more about our commitment to security.
-                </p>
+
               </li>
               <li className='mb-6'>
                 <span>
@@ -48,6 +51,7 @@ export default function SecuritySection() {
                 </p>
               </li>
             </ul>
+            */} 
           </div>
         </div>
       </div>

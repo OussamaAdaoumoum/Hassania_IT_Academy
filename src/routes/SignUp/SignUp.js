@@ -39,7 +39,7 @@ function SignUp() {
 
   return (
 
-  <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white bg-black">
+  <div className="mx-auto flex min-h-screen w-full items-center justify-center bg-gray-900 text-white">
   <form  className="flex w-[30rem] flex-col space-y-10" onSubmit={handleSubmit}>
     <div className="text-center text-4xl font-medium text-[#00283f]">Sign Up</div>
 
